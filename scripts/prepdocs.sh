@@ -59,7 +59,7 @@ $aclArg  --storageaccount "$AZURE_STORAGE_ACCOUNT" \
 $searchImagesArg $visionEndpointArg $visionKeyArg $visionKeyVaultkey $visionKeyVaultName \
 --container "$AZURE_STORAGE_CONTAINER" --searchservice "$AZURE_SEARCH_SERVICE" \
 --openaiservice "$AZURE_OPENAI_SERVICE" --openaideployment "$AZURE_OPENAI_EMB_DEPLOYMENT" \
---openaimodelname "$AZURE_OPENAI_EMB_MODEL_NAME" --index "$AZURE_SEARCH_INDEX" --remove /data/tsla-20221231-gen.pdf \
+--openaimodelname "$AZURE_OPENAI_EMB_MODEL_NAME" --index "$AZURE_SEARCH_INDEX" --remove "/data/tsla-20221231-gen.pdf" \
 --formrecognizerservice "$AZURE_FORMRECOGNIZER_SERVICE" --openaimodelname "$AZURE_OPENAI_EMB_MODEL_NAME" \
 $tenantArg --openaihost "$OPENAI_HOST" \
 --openaikey "$OPENAI_API_KEY" -v
